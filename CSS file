@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #fcdc7c, #e3a2f5);
+    color: #fff;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fc7777;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    color: black;
+    font-family: "sans-serif";
+}
+
+h3 {
+    font-size: 23px;
+    margin: 13px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.menu-bar {
+    width: 8%;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.card {
+    font-family: "Arial";
+    color: black;
+    width: 50vw;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 40px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    background-color: #fc7777;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.icons-arrow {
+    width: 25%;
+    margin-left: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-container1 {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+.images2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-image-container {
+    height: 310px;
+    width: 150px;
+}
+
+.card2 {
+    font-family: "Arial";
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    background-color: #fc7777;
+    padding: 15px;
+    margin: 10px;
+}
+
+@media (min-width: 992px) {
+    h3 {
+        font-size: 23px;
+        margin: 17px;
+    }
+
+    .image-container1 {
+        height: 250px;
+        width: 250px;
+    }
+
+    .third-image-container {
+        width: 250px;
+        height: 510px;
+    }
+
+    .card2 {
+        margin-left: 30px;
+        width: 330px;
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin: 7px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h3 {
+        font-size: 9px;
+        margin: 2px;
+
+    }
+
+    h1 {
+        margin: 5px;
+    }
+
+    p {
+        margin: 5px;
+    }
+
+
+    button {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .top-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .card {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .image-container {
+        flex: 1;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .image-container1 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .third-image-container {
+        width: 200px;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+}
